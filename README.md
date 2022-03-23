@@ -13,7 +13,7 @@ A completed version of the Software Developer Challenge for Software For Love.
     - [x] Yarn, confirm installation using ```yarn -h```
 - [x] Download Gatsby Template & confirm bootstrap
 - [x] Setup Git repo, main & test branches, initial commit
-- [ ] Complete the challenge and develop navigation bar
-- [ ] Push changes to Git & deploy the challenge in Netlify
+- [x] Complete the challenge and develop navigation bar
+- [x] Push changes to Git & deploy the challenge in Netlify
 
 ##### [Click here for the completed challenge hosted on Netlify!](https://sflchallenge-shakib.netlify.app/)

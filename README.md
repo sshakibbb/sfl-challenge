@@ -16,4 +16,4 @@ A completed version of the Software Developer Challenge for Software For Love.
 - [ ] Complete the challenge and develop navigation bar
 - [ ] Push changes to Git & deploy the challenge in Netlify
 
-##### [Click here for the completed challenge hosted on Netlify!](https://www.google.ca/)
+##### [Click here for the completed challenge hosted on Netlify!](https://sflchallenge-shakib.netlify.app/)

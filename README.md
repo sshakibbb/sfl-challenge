@@ -6,7 +6,7 @@ A completed version of the Software Developer Challenge for Software For Love.
 - Establish familiarity with Git repositories, Node.js, and Gatsby.js
 - Incorporate a navigation bar in the header of the default starter Gatsby website
 
-### TODO
+### TODO:
 - [x] Install Node.js, confirm installation using ```npm```
 - [x] Install required packages
     - [x] Gatsby.js, confirm installation using ```gatsby -h```

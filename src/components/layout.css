@@ -596,34 +596,3 @@ pre tt:after {
     font-size: 100%;
   }
 }
-
-.navContainer{  
-  height: 23px;
-  width: 100%;
-}
-
-.navBar{
-  margin-left: 16px;
-  top: 50px;
-  width: 100%;
-  position: absolute;
-}
-
-.navLinks{
-  margin: 0 auto;
-  padding: 0;
-}
-
-.navLinksItem{
-  float: left;
-  list-style: none;
-}
-
-.navLinksText{
-  display: block;
-  font-size: 16px;
-  color: white;
-  margin: 0;
-  padding: 0px 15px;
-  text-decoration: none;
-}

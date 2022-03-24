@@ -1,6 +1,13 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import {
+  navContainer,
+  navBar,
+  navLinks,
+  navLinksItem,
+  navLinksText,
+} from './layout.module.css'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -28,17 +35,35 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <div class = "navigation"
+    <div className={navContainer}
       style={{
         margin: '0 auto',
-        maxWidth: 980,
+        maxWidth: 960,
       }}
     >
-      <div class = "nav-bar">
-        <ul class = "nav-links">
-            <h3><li><a href="/">Home</a></li></h3>
-            <h3><li><a href="/page-2">Page 2</a></li></h3>
-            <h3><li><a href="/using-typescript">Using TypeScript</a></li></h3>
+      <div className = {navBar}>
+        <ul className = {navLinks}>
+            <h3>
+              <li className = {navLinksItem}>
+              <Link to="/" className={navLinksText}>
+                Home
+              </Link>
+              </li>
+            </h3>
+            <h3>
+              <li className = {navLinksItem}>
+              <Link to="/page-2" className={navLinksText}>
+                Page 2
+              </Link>
+              </li>
+            </h3>
+            <h3>
+              <li className = {navLinksItem}>
+              <Link to="/using-typescript" className={navLinksText}>
+                Using TypeScript
+              </Link>
+              </li>
+            </h3>
         </ul>
       </div>
     </div>

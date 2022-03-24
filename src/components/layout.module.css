@@ -597,28 +597,29 @@ pre tt:after {
   }
 }
 
-.navigation{  
+.navContainer{  
   height: 20px;
   width: 100%;
 }
 
-.nav-bar{
+.navBar{
+  margin-left: 16px;
   top: 50px;
   width: 100%;
   position: absolute;
 }
 
-.nav-links ul{
-  margin: 0;
+.navLinks{
+  margin: 0 auto;
   padding: 0;
 }
 
-.nav-links li{
+.navLinksItem{
   float: left;
   list-style: none;
 }
 
-.nav-links li a{
+.navLinksText{
   display: block;
   font-size: 16px;
   color: white;

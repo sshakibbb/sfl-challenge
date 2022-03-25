@@ -7,7 +7,7 @@ import {
   navLinks,
   navLinksItem,
   navLinksText,
-} from './layout.module.css'
+} from './header.module.css'
 
 const Header = ({ siteTitle }) => (
   <header
